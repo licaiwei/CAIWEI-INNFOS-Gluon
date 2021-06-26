@@ -1,0 +1,10 @@
+<launch>
+  <!-- 加载YAML文件 -->
+  <rosparam file="$(find gluon_demo)/config/Joint_name_2_id.yaml" command="load" />
+
+  <!-- 启动驱动器 -->
+  <include file="$(find actuatorcontroller_ros)/launch/innfos_fixed_100hz.launch" />
+  
+  <!-- 启动 joint_state_publisher -->
+  <node name="joint_state_publisher" pkg="gluon_demo" type="joint_state_publiser_controller.py"/>
+</launch>

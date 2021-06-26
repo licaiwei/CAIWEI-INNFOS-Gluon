@@ -1,0 +1,6 @@
+int32 ActuatorID
+---
+float64 FIRMWARE_VERSION
+int64   SN_ID
+int64   ERROR_ID
+int64   VERSION_430

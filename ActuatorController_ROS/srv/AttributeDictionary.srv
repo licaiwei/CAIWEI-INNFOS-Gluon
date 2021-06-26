@@ -1,0 +1,5 @@
+std_msgs/String LookupTerm
+---
+std_msgs/String TermType
+bool isChangeable
+std_msgs/String TermExplanation

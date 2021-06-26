@@ -1,0 +1,8 @@
+joint_id_list:
+  #  关节名称    AD号
+  axis_joint_1: 1
+  axis_joint_2: 2
+  axis_joint_3: 3
+  axis_joint_4: 4
+  axis_joint_5: 5
+  axis_joint_6: 6

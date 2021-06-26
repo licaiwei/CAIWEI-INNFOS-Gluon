@@ -1,0 +1,4 @@
+bool isQuery
+---
+int32[] ActuatorList
+int32[] ActuatorSwitch

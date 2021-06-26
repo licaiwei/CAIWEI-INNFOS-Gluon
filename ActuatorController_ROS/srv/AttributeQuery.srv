@@ -1,0 +1,9 @@
+int32 ActuatorID
+---
+float64 ACTUAL_CURRENT
+float64 ACTUAL_VELOCITY
+float64 ACTUAL_POSITION
+int32   MODE_ID
+bool    ACTUATOR_SWITCH
+bool    ONLINE_STATUS
+bool    INIT_STATE

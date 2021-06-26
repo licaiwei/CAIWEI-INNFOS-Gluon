@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="actuatorcontroller_ros" type="innfos_actuator" name="innfos_actuator" output="screen" respawn="false">
+         <param name="innfos_no_param" value="true" type="bool"/>
+    </node>
+</launch>
