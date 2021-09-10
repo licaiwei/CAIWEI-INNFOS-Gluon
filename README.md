@@ -49,3 +49,4 @@ roslaunch gluon_demo display.launch
 `launch/real_driver.launch`加载上面的`yaml`文件，启动`joint_state_publiser_controller`
 
 待更新
+最近找工作，生活艰辛，有空一定更新
